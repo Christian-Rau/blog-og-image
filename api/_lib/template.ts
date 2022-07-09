@@ -13,12 +13,12 @@ const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('ba
 
 function getCss(theme: string, fontSize: string) {
     // let background = 'white';
-    let background = 'white';
-    let foreground = 'black';
+    let background = '#f1f5f9';
+    let foreground = '#0e0e3d';
     let radial = 'lightgray';
 
     if (theme === 'dark') {
-        background = 'black';
+        background = '#0e0e3d';
         foreground = 'white';
         radial = 'dimgray';
     }
