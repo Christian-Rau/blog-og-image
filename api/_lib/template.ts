@@ -12,6 +12,7 @@ const bold = readFileSync(`${__dirname}/../_fonts/Inter-Bold.woff2`).toString('b
 const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('base64');
 
 function getCss(theme: string, fontSize: string) {
+    // let background = 'white';
     let background = 'white';
     let foreground = 'black';
     let radial = 'lightgray';
@@ -20,6 +21,11 @@ function getCss(theme: string, fontSize: string) {
         background = 'black';
         foreground = 'white';
         radial = 'dimgray';
+    }
+    if (theme === 'color') {
+        background = '#4d0096';
+        foreground = 'white';
+        radial = '#b09dd3';
     }
     return `
     @font-face {

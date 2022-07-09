@@ -126,6 +126,7 @@ const Toast = ({ show, message }: ToastProps) => {
 const themeOptions: DropdownOption[] = [
     { text: 'Light', value: 'light' },
     { text: 'Dark', value: 'dark' },
+    { text: 'Color', value: 'color' },
 ];
 
 const fileTypeOptions: DropdownOption[] = [
@@ -148,6 +149,7 @@ const imageLightOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: 'LazyDEVlight', value: './public/img/lazydev-logo-light-transparent.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
@@ -155,6 +157,7 @@ const imageDarkOptions: DropdownOption[] = [
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
+    { text: 'LazyDEVdark', value: './public/img/lazydev-logo-dark-transparent.svg' },
 ];
 
 
@@ -187,7 +190,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
         fontSize = '100px',
         theme = 'light',
         md = true,
-        text = '**Hello** World',
+        text = 'How **automate** this?',
         images=[imageLightOptions[0].value],
         widths=[],
         heights=[],
