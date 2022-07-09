@@ -52,13 +52,13 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg'
-        : 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg';
+        ? 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled-transparent.svg'
+        : 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-filled-transparent.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://assets.vercel.com/') && !images[0].startsWith('https://assets.zeit.co/')) {
+    if (!images[0].startsWith('https://raw.githubusercontent.com/') && !images[0].startsWith('https://raw.githubusercontent.com/Christian-Rau/')) {
         images[0] = defaultImage;
     }
     return images;
