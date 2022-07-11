@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydev-logo-dark-url.svg'
-        : 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-url.svg';
+        ? 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-dark-url.svg'
+        : 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-light-url.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
