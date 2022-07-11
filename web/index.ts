@@ -146,17 +146,34 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
+    { text: 'LazyDEVdarkUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydev-logo-light-url.svg' },
     { text: 'LazyDEVdarkOutline', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydev-logo-light-outline.svg' },
     { text: 'LazyDEVdarkFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled-transparent.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled.svg' },
     { text: 'lazydevFaviconDark', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydevFaviconDark.svg' },
+    { text: 'Svelte', value: 'https://api.iconify.design/logos:svelte-icon.svg' },
+    { text: 'TailwindCSS', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/364bb723c3392e7b6d678e29ed0f0a0108b3d43c/logos/tailwind.svg' },
+    { text: 'Markdown', value: 'https://api.iconify.design/logos:markdown.svg' },
+    { text: 'Bash', value: 'https://api.iconify.design/logos:bash-icon.svg' },
+    { text: 'FireBase', value: 'https://api.iconify.design/logos:firebase.svg' },
+    { text: 'Supabase', value: 'https://api.iconify.design/logos:supabase-icon.svg' },
+    { text: 'Windows', value: 'https://api.iconify.design/logos:microsoft-windows.svg' },
+    { text: 'Linux', value: 'https://api.iconify.design/logos:linux-tux.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
+    { text: 'LazyDEVdarkUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-url.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled.svg' },
     { text: 'LazyDEVlightFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-filled-transparent.svg' },
-    { text: 'LazyDEVlight', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light.svg' },
     { text: 'lazydevFaviconLight', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydevFaviconLight.svg' },
+    { text: 'Svelte', value: 'https://api.iconify.design/logos:svelte-icon.svg' },
+    { text: 'TailwindCSS', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/364bb723c3392e7b6d678e29ed0f0a0108b3d43c/logos/tailwind.svg' },
+    { text: 'Markdown', value: 'https://api.iconify.design/logos:markdown.svg' },
+    { text: 'Bash', value: 'https://api.iconify.design/logos:bash-icon.svg' },
+    { text: 'FireBase', value: 'https://api.iconify.design/logos:firebase.svg' },
+    { text: 'Supabase', value: 'https://api.iconify.design/logos:supabase-icon.svg' },
+    { text: 'Windows', value: 'https://api.iconify.design/logos:microsoft-windows.svg' },
+    { text: 'Linux', value: 'https://api.iconify.design/logos:linux-tux.svg' },
 ];
 
 

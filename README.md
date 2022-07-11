@@ -41,7 +41,7 @@ It looks like the following:
 
 ```html
 <head>
-  <title>Hello World</title>
+  <title>How automate this?</title>
   <meta
     property="og:image"
     content="https://blog-og-image-seven.vercel.app/How%20**automate**%20this%3F.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fraw.githubusercontent.com%2FChristian-Rau%2Fblog-og-image%2F9a117721519fdb3afbf817170a9d6c586f74f3ab%2Fpublic%2Fimg%2Flazydev-logo-dark-filled-transparent.svg"
@@ -49,7 +49,7 @@ It looks like the following:
 </head>
 ```
 
-Now try changing the text `Hello%20World` to the title of your choosing and watch the magic happen ✨
+Now try changing the text `How%20**automate**%20this%3F` to the title of your choosing and watch the magic happen ✨
 
 ## Deploy your own
 
