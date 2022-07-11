@@ -152,7 +152,7 @@ const imageLightOptions: DropdownOption[] = [
     { text: 'LazyDEVdarkFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/lazydev-logo-dark-filled-transparent.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/lazydev-logo-dark-filled.svg' },
     { text: 'lazydevFaviconDark', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/lazydevFaviconDark.svg' },
-    { text: 'Svelte', value: `${pathToLogo}svelte.svg` },
+    { text: 'Svelte', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/master/logos/svelte.svg' },
     { text: 'TailwindCSS', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/master/logos/tailwind.svg' },
     { text: 'React', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/master/logos/react.svg' },
     { text: 'NextJS', value: 'https://raw.githubusercontent.com/Christian-Rau/graphics-and-logoes/master/logos/nextjs.svg' },
