@@ -52,13 +52,13 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/45443c88ae3b333617ebc50a5c053d2a41bb0221/public/img/lazydev-logo-dark-url.svg'
-        : 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/c1efe9c74857da16909e006f314794fc72de7a3e/public/img/lazydev-logo-light-url.svg';
+        ? 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/lazydev-logo-dark-url.svg'
+        : 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/lazydev-logo-light-url.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://raw.githubusercontent.com/Christian-Rau/blog-og-image/') && !images[0].startsWith('https://github.com/Christian-Rau/graphics-and-logoes/blob/master/logos/')) {
+    if (!images[0].startsWith('https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/') && !images[0].startsWith('https://github.com/Christian-Rau/graphics-and-logoes/blob/master/logos/')) {
         images[0] = defaultImage;
     }
     return images;
