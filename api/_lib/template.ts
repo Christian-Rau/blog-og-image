@@ -20,7 +20,7 @@ function getCss(theme: string, fontSize: string) {
     if (theme === 'dark') {
         background = '#0e0e3d';
         foreground = 'white';
-        radial = 'dimgray';
+        radial = '#0e0e3d';
     }
     if (theme === 'color') {
         background = '#4d0096';
