@@ -146,7 +146,7 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'LazyDEVdarkUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-dark-url.svg' },
+    { text: 'LazyDEVdarkUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/45443c88ae3b333617ebc50a5c053d2a41bb0221/public/img/lazydev-logo-dark-url.svg' },
     { text: 'LazyDEVdarkOutline', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydev-logo-light-outline.svg' },
     { text: 'LazyDEVdarkFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled-transparent.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-dark-filled.svg' },
@@ -171,7 +171,7 @@ const imageLightOptions: DropdownOption[] = [
 ];
 
 const imageDarkOptions: DropdownOption[] = [
-    { text: 'LazyDEVlightUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-light-url.svg' },
+    { text: 'LazyDEVlightUrl', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/45443c88ae3b333617ebc50a5c053d2a41bb0221/public/img/lazydev-logo-light-url.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/33e8ac13b43c44a65c60c60f0a7093aef952932d/public/img/lazydev-logo-dark-filled.svg' },
     { text: 'LazyDEVlightFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-filled-transparent.svg' },
     { text: 'lazydevFaviconLight', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/a0a46406a5bf18d35331888874785af370c748e3/public/img/lazydevFaviconLight.svg' },
