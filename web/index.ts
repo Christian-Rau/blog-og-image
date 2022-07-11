@@ -146,12 +146,17 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
+    { text: 'lazydevFaviconDark', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydevFaviconDark.svg' },
+    { text: 'LazyDEVdarkOutline', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-outline.svg' },
     { text: 'LazyDEVdarkFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled-transparent.svg' },
     { text: 'LazyDEVdarkFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-filled.svg' },
     { text: 'LazyDEVdark', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
+    { text: 'lazydevFaviconLight', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydevFaviconLight.svg' },
+    { text: 'LazyDEVdarkOutline', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-outline.svg' },
+    { text: 'LazyDEVdarkOutline', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-dark-outline.svg' },
     { text: 'LazyDEVlightFilledTrans', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-filled-transparent.svg' },
     { text: 'LazyDEVlightFilled', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light-filled.svg' },
     { text: 'LazyDEVlight', value: 'https://raw.githubusercontent.com/Christian-Rau/blog-og-image/9a117721519fdb3afbf817170a9d6c586f74f3ab/public/img/lazydev-logo-light.svg' },

@@ -44,7 +44,7 @@ It looks like the following:
   <title>Hello World</title>
   <meta
     property="og:image"
-    content="https://og-image.vercel.app/Hello%20World.png"
+    content="https://blog-og-image-seven.vercel.app/How%20**automate**%20this%3F.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fraw.githubusercontent.com%2FChristian-Rau%2Fblog-og-image%2F9a117721519fdb3afbf817170a9d6c586f74f3ab%2Fpublic%2Fimg%2Flazydev-logo-dark-filled-transparent.svg"
   />
 </head>
 ```
