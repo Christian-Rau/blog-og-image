@@ -58,7 +58,7 @@ function getDefaultImages(images: string[], theme: Theme): string[] {
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://raw.githubusercontent.com/Christian-Rau/blog-og-image/main/public/img/') && !images[0].startsWith('https://github.com/Christian-Rau/graphics-and-logoes/blob/master/logos/')) {
+    if (!images[0].startsWith('https://raw.githubusercontent.com/') && !images[0].startsWith('https://raw.githubusercontent.com/Christian-Rau/')) {
         images[0] = defaultImage;
     }
     return images;
