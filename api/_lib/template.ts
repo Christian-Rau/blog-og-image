@@ -19,12 +19,12 @@ function getCss(theme: string, fontSize: string) {
 
     if (theme === 'dark') {
         background = '#0e0e3d';
-        foreground = 'white';
+        foreground = '#ffffff';
         radial = '#0e0e3d';
     }
     if (theme === 'color') {
         background = '#4d0096';
-        foreground = 'white';
+        foreground = '#ffffff';
         radial = '#b09dd3';
     }
     return `
